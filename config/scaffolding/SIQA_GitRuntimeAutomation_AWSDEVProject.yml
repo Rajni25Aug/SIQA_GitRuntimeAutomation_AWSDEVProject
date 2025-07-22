@@ -14,6 +14,20 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 services:
+- serviceName: project.siqa_gitruntimeautomation_awsdev.integrations:SIQA_E2E_Mon_Test
+  packages:
+  - name: SIQA_GitRuntimeAutomation_AWSDEVProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.7
+- serviceName: pub.string:bytesToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.7
 - serviceName: project.siqa_gitruntimeautomation_awsdev.integrations:SIQA_ThirdPPEdgeFS
   packages:
   - name: SIQA_GitRuntimeAutomation_AWSDEVProject
@@ -29,10 +43,6 @@ services:
   - name: SIQA_OriginTest_OnPremAssets
     version: "1.0"
 - serviceName: pub.math:divideInts
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.7
-- serviceName: pub.math:addInts
   packages:
   - name: WmPublic
     version: 11.1.0.0.7
