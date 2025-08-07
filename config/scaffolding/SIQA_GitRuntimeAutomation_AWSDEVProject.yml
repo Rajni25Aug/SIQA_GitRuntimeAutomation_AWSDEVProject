@@ -13,6 +13,11 @@ packages:
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
+- name: SubPackage
+  gitServerName: PRCH_GL_PVT
+  gitUrl: https://gitlab.com/prakashmj59
+  gitUsername: prakashmj59
+  gitBranch: master
 services:
 - serviceName: project.siqa_gitruntimeautomation_awsdev.integrations:SIQA_E2E_Mon_Test
   packages:
